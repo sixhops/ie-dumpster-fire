@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 100%;
+}
+h1 {
+    border: 1px solid blue;
+    font-size: calc(2rem + 2.13vw);
+}
