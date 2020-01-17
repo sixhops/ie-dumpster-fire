@@ -1,10 +1,20 @@
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid rebeccapurple;
     width: 100%;
     /* flex: 0 1 auto; */
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 40%;
+}
+.right {
+    flex: 1 1 50%;
+}
+
 h1 {
     border: 1px solid blue;
     font-size: calc(2rem + 2.13vw);
