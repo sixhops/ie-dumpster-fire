@@ -1,15 +1,23 @@
 main {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid yellow;
     width: 100%;
-    flex: 0 1 auto;
+    /* flex: 0 1 auto; */
 }
 h1 {
-    border: 1px solid blue;
+    border: 1px solid green;
     font-size: calc(2rem + 2.13vw);
     max-width: 100%;
     margin: 0;
+    flex: 0 1 auto;
+}
+.lineBreak {
+    flex: 0 1 auto;
+}
+
+.list {
+    flex: 0 1 auto;
 }
 
 @media screen and (min-width: 768px) {
