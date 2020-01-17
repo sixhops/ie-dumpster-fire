@@ -32,13 +32,13 @@ h1 {
 }
 
 @media screen and (min-width: 576px) {
-    h1 {
-        flex-basis: 40%;
+    .left {
+        flex-basis: 45%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    h1 {
+    .left {
         flex-basis: 50%;
     }
 }
