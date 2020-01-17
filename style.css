@@ -7,4 +7,6 @@ main {
 h1 {
     border: 1px solid blue;
     font-size: calc(2rem + 2.13vw);
+    max-width: 100%;
+    margin: 0;
 }
