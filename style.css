@@ -1,44 +1,40 @@
-main {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid red;
-    width: 100%;
-}
 
-.left {
+.Hunter-l {
     display: flex;
     flex-direction: column;
-    flex: 0 1 40%;
-    border: 1px solid blue;
-}
-.right {
-    flex: 1 1 50%;
-    border: 1px solid green;
 }
 
-h1 {
-    border: 1px solid yellow;
-    font-size: calc(2rem + 2.13vw);
-    max-width: 100%;
-    margin: 0;
-    flex: 0 1 auto;
+.Hunter-l-rowOne {
+    display: flex;
+    flex-direction: column;
 }
-.lineBreak {
-    flex: 0 1 auto;
+.Hunter-l-columnOne {
+    display: flex;
 }
+.Hunter-l-columnTwo {
+    
+}
+.Hunter-primaryImage {
+    max-width: 560px;
+    margin: 0 auto;
+}
+.Hunter-primaryImage-img {
+    width: 100%;
+    padding: 0 1em;
+}
+.toggle {
+    height: 32px;
+    background: red;
+}
+.overview {
+    max-width: 320px;
+}
+.description {
+    text-align: center;
+}
+.Hunter-l-rowTwo--overview {
 
-.list {
-    flex: 0 1 auto;
 }
-
-@media screen and (min-width: 576px) {
-    .left {
-        flex-basis: 45%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .left {
-        flex-basis: 50%;
-    }
+.skills {
+    
 }
