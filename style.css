@@ -1,4 +1,6 @@
-
+h1 {
+    font-size: 4em;
+}
 .Hunter-l {
     display: flex;
     flex-direction: column;
@@ -36,5 +38,5 @@
 
 }
 .skills {
-    
+
 }
