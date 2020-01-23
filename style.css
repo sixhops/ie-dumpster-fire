@@ -1,42 +1,16 @@
-h1 {
-    font-size: 4em;
-}
-.Hunter-l {
-    display: flex;
-    flex-direction: column;
-}
-
-.Hunter-l-rowOne {
-    display: flex;
-    flex-direction: column;
-}
-.Hunter-l-columnOne {
-    display: flex;
-}
-.Hunter-l-columnTwo {
-    
-}
-.Hunter-primaryImage {
-    max-width: 560px;
-    margin: 0 auto;
-}
-.Hunter-primaryImage-img {
+.Hunter-skills {
     width: 100%;
-    padding: 0 1em;
 }
-.toggle {
-    height: 32px;
-    background: red;
-}
-.overview {
-    max-width: 320px;
-}
-.description {
-    text-align: center;
-}
-.Hunter-l-rowTwo--overview {
 
+.Hunter-l-skillGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.skills {
 
+.Hunter-skillGrid-item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 2em);
+    height: 100px;
 }
